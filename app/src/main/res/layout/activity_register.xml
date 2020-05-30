@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="REGISTER"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="firstname"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/firstRegister"
+        android:inputType="text"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="lastname"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lastRegister"
+        android:inputType="text"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="phone"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/phoneRegister"
+        android:inputType="number"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="email"
+        android:textSize="22sp"
+        android:id="@+id/emailRegister"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="password"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/passwordRegister"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="repeat password"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/repeatPass"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Register"
+        android:layout_marginTop="30dp"
+        android:id="@+id/registerBtn"
+        android:textColor="#FFF"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
