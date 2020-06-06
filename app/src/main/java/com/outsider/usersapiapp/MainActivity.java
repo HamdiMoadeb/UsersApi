@@ -58,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
                             public void onCompleted(Exception e, JsonObject result) {
                                 if(e == null){
 
-                                    Toast.makeText(MainActivity.this, ""+result, Toast.LENGTH_LONG).show();
+                                   Intent intent = new Intent(MainActivity.this, UsersListActivity.class);
+                                   startActivity(intent);
 
                                 }
                             }
